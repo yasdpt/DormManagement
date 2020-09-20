@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">مدیریت هزینه خوابگاه</string>
+
+    <string name="login_password">رمز عبور</string>
+    <string name="login_username">نام کاربری</string>
+    <string name="login_login">ورود</string>
+
+    <string name="try_again_please">آیتمی پیدا نشد، لطفا دوباره تلاش کنید</string>
+    <string name="try_again">تلاش دوباره</string>
+    <string name="network_failure_try">خطا در ارتباط با سرور، لطف دوباره تلاش کنید</string>
+    <string name="network_failure">خطا در ارتباط با سرور!</string>
+    <string name="no_internet">لطفا اینترنت خود را متصل و دوباره تلاش کنید</string>
+    <string name="login_supervisor">سرپرست</string>
+    <string name="login_admin">مدیر</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_home">اتاق ها</string>
+    <string name="title_dashboard">سرپرست ها</string>
+    <string name="title_notifications">بیشتر</string>
+    <string name="data_error">خطا در دریافت داده ها</string>
+    <string name="operation_error">خطا در انجام عملیات</string>
+
+
+    <string name="tab_ui_collection">Components</string>
+    <string name="tab_features">FEATURES</string>
+    <string name="tab_application">APPS</string>
+    <string name="tab_feature_request">Feature Request</string>
+    <string name="tab_about_us">About Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="message__want_to_quit">Do you really want to quit?</string>
+
+    <string name="dummy_paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis, velit eget dapibus malesuada, massa eros condimentum mi, in pulvinar dui sapien at mi. Aenean porttitor vitae elit vitae sagittis. Nullam porta mauris eget libero ornare maximus. Curabitur vehicula quam vel pulvinar efficitur. Donec ultricies sapien vitae auctor congue. Suspendisse posuere malesuada augue nec sodales. Etiam ut erat massa. Integer gravida justo eu elit ornare ultrices. Curabitur augue dui, dapibus vel luctus eu, pellentesque quis erat. Suspendisse elementum justo vitae ante dapibus, et dignissim metus iaculis. Nam nec condimentum dolor, sodales scelerisque lacus. Suspendisse placerat facilisis felis id rutrum. Praesent posuere nulla id tellus tristique rutrum.\n\nDonec vitae sem malesuada, mollis velit et, faucibus erat. Suspendisse et rhoncus velit, non vestibulum erat. Maecenas a posuere diam. Curabitur cursus pharetra lacus, et euismod nisi pellentesque eu. Maecenas finibus dui scelerisque ipsum lacinia viverra. Donec eros risus, placerat id leo eget, sodales congue augue. Nullam tincidunt neque eu tellus varius facilisis. Proin sit amet mi eu sem scelerisque euismod eget sed lectus. Duis sed ante a magna tempor luctus eget in ex. Maecenas ligula arcu, tincidunt eu iaculis vitae, euismod vitae ex. Sed mollis pretium turpis, eu hendrerit eros interdum et. Pellentesque fermentum magna nec tellus ullamcorper dapibus. Fusce et vulputate tellus.\n\nDonec sem lorem, mollis tincidunt interdum non, convallis eget lacus. In imperdiet diam condimentum ex mattis efficitur. In in tellus vitae urna ultrices molestie. Fusce ac elementum ante. Sed porttitor rutrum interdum. Etiam tellus diam, hendrerit ut tellus quis, malesuada consectetur felis. Aliquam fermentum sapien ipsum, id hendrerit lorem rhoncus vitae. In hac habitasse platea dictumst.
+    </string>
+    <string name="dummy_text1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur ligula et eros pulvinar viverra. Morbi eu orci nulla. Duis porttitor mauris quis diam imperdiet, a porta diam sagittis. Suspendisse rutrum accumsan lectus et vestibulum. Donec vel est erat. Donec id sollicitudin quam, ut sollicitudin velit. Nulla at libero vitae urna fringilla porttitor sit amet vitae ligula. Duis ac mattis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi congue, nisl eget tincidunt commodo, purus lacus dignissim massa, eu maximus ex ex sed lectus. Mauris dapibus enim ac ex tempor lobortis. Pellentesque at dolor nec dolor bibendum consectetur non ut libero.
+    </string>
+    <string name="dummy_text_title">
+        Lorem ipsum dolor sit amet.
+    </string>
+
+    <string name="dummy_medium_text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+
+    <string name="dummy_small_text">
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="home5_all">ALL</string>
+    <string name="home5_brands">BRANDS</string>
+    <string name="home5_trending">TRENDING</string>
+    <string name="home5_recommended">RECOMMENDED</string>
+    <string name="home5_women">WOMEN</string>
+    <string name="home5_men">MEN</string>
+    <string name="shr_account_label">MY ACCOUNT</string>
+
+    <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
+    <string name="no_data_available">داده ای یافت نشد</string>
+    <string name="hint_search">جستجو...</string>
+    <string name="tv_no_result_found">تیجه ای پیدا نشد</string>
+    <string name="tv_put_keyword">سعی کنید کلمه های کلیدی وارد کنید</string>
+    <string name="btn_add_student">ثبت دانشجو</string>
+    <string name="et_student_name">نام</string>
+    <string name="et_student_family">فامیلی</string>
+    <string name="et_student_pid">شماره دانشجویی</string>
+    <string name="et_student_natid">کد ملی</string>
+    <string name="et_student_phone">شماره موبایل</string>
+    <string name="btn_add_room">ثبت اتاق</string>
+    <string name="hint_room_name">نام اتاق</string>
+    <string name="hint_room_floor">طبقه اتاق</string>
+    <string name="hint_room_capacity">ظرفیت اتاق</string>
+    <string name="btn_add_term">ثبت ترم</string>
+    <string name="hint_term_name">نام ترم</string>
+    <string name="hint_payment_price">مبلغ پرداختی به ریال</string>
+    <string name="hint_payment_title">عنوان پرداخت</string>
+    <string name="btn_payment_search">جستجوی دانشجو</string>
+    <string name="hint_payment_search">شماره دانشجویی</string>
+    <string name="btn_add_payment">ثبت پرداخت</string>
+    <string name="hint_violation_detail">توضیحات</string>
+    <string name="hint_violation_title">عنوان تخلف</string>
+    <string name="hint_violation_cost">هزینه تخلف به ریال</string>
+    <string name="btn_add_violation">ثبت تخلف</string>
+    <string name="btn_see_std_profile">دیدن پروفایل دانشجو</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="std_detail_name">نام و نام خانوادگی:</string>
+    <string name="std_detail_pid">شماره دانشجویی:</string>
+    <string name="std_detail_nat_id">شماره ملی:</string>
+    <string name="std_detail_phone">شماره موبایل:</string>
+    <string name="std_detail_debt">بدهکاری:</string>
+    <string name="std_detail_credit">طلبکاری:</string>
+    <string name="std_detail_date">تاریخ ثبت نام:</string>
+    <string name="tv_payment_amount">مبلغ پرداخت:</string>
+    <string name="tv_payment_date">تاریخ پرداخت:</string>
+    <string name="tv_violation_title">عنوان تخلف:</string>
+    <string name="tv_violation_date">تاریخ تخلف:</string>
+    <string name="tv_term_name">نیمسال تحصیلی:</string>
+    <string name="hint_admin_name">نام</string>
+    <string name="hint_admin_family">نام خانوادگی</string>
+    <string name="hint_admin_username">نام کاربری</string>
+    <string name="hint_admin_password">رمز عبور</string>
+    <string name="hint_admin_email">ایمیل</string>
+    <string name="hint_admin_phone">شماره تلفن</string>
+    <string name="btn_add_supervisor">ثبت سرپرست</string>
+    <string name="btn_add_to_room">تخصیص اتاق</string>
+    <string name="hint_tuition_price">میزان شهریه</string>
+    <string name="btn_edit_tuition">ویرایش شهریه</string>
+
+
+</resources>

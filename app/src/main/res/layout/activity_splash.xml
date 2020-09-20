@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/applogo"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/tvSplashNoInternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:text="@string/no_internet"
+            />
+
+        <Button
+            android:id="@+id/btnSplashTryAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSplashNoInternet"
+            android:text="@string/try_again"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:background="@drawable/btn_purple_a400"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/preloader" />
+    </RelativeLayout>
+
+</FrameLayout>

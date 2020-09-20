@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home"
+    tools:ignore="UnusedNavigation">
+
+    <keep_state_fragment
+        android:id="@+id/navigation_home"
+        android:name="ir.staryas.dormmanagement.activity.ui.room.RoomFragment"
+        tools:layout="@layout/fragment_room"
+        android:label="@string/title_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_student"
+            app:destination="@id/navigation_student"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="yasinf.deep" />
+    </keep_state_fragment>
+
+    <keep_state_fragment
+        android:id="@+id/navigation_student"
+        tools:layout="@layout/fragment_student"
+        android:name="ir.staryas.dormmanagement.fragment.StudentFragment"
+        android:label="دانشجو ها">
+        <argument
+            android:name="name"
+            android:defaultValue='""'
+            app:argType="string" />
+        <action
+            android:id="@+id/action_navigation_student_self"
+            app:destination="@id/navigation_student"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </keep_state_fragment>
+
+    <keep_state_fragment
+        android:id="@+id/navigation_dashboard"
+        tools:layout="@layout/fragment_supervisor"
+        android:name="ir.staryas.dormmanagement.activity.ui.supervisor.SupervisorFragment"
+        android:label="@string/title_dashboard" />
+
+    <keep_state_fragment
+        android:id="@+id/navigation_notifications"
+        tools:layout="@layout/fragment_more"
+        android:name="ir.staryas.dormmanagement.activity.ui.more.MoreFragment"
+        android:label="@string/title_notifications" />
+
+</navigation>
